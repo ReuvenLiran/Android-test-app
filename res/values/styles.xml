@@ -1,0 +1,41 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+  
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+                <item name="windowActionBar">false</item> 
+  
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+     
+    <style name="ActionButtonStyle" parent="@android:style/Widget.Holo.ActionButton">
+    <item name="android:minWidth">60dip</item>
+    <item name="android:paddingLeft">80dip</item>
+    <item name="android:paddingRight">80dip</item>                  
+</style> 
+
+    <style name="MyTheme" parent="android:Theme.Holo.Light">
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+</style>
+
+     <style name="PagerTabStripText">
+      
+      <item name="android:textSize">70sp</item>
+      
+       
+ </style>
+</resources>

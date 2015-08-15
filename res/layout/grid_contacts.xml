@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+<com.liran.adorikatest.others.MyGridView 
+    android:id="@+id/grid_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:stretchMode="columnWidth"
+    android:numColumns="2"
+    android:clipToPadding="false"
+    android:paddingLeft="35dp"
+    android:paddingRight="35dp"
+    android:clipChildren="true" 
+    android:gravity="center_horizontal"
+    android:paddingTop="25dp" 
+    android:columnWidth="100dp" 
+    android:verticalSpacing="15dp"
+    />
+     
+<include
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_below="@id/grid_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    layout="@layout/button_compose_footer" />
+  
+</RelativeLayout>
+    
+ 
